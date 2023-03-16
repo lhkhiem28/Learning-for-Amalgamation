@@ -18,7 +18,7 @@ Authors: Cuong V. Nguyen and Khiem H. Le and Anh M. Tran and Quang H. Pham and B
 
 ## Overview  <a name="Overview"></a>
 
-<p align="center">
+<p align="left">
 <img src="arch.png" width="100%" />
 <br>
 Our proposed LIFA framework using a gating network. (a) The overall framework demonstrated on N embeddings. (b) Our Gating Network architecture. It is worth noting that from given input data, LIFA can select N different embedding models (which can have distinct embedding dimensions) for extracting feature vectors. These feature vectors then go through linear transformation layers to project these feature vectors into the same feature space. Finally, a gating network can be employed for combining these newly computed features to learn an optimal classifier for the sentiment classification problem.
@@ -51,6 +51,16 @@ Our proposed LIFA framework using a gating network. (a) The overall framework de
   * Download vncorenlp from https://github.com/VinAIResearch/PhoBERT#vncorenlp, extract and place at */vncorenlp
 
 ## Training  <a name="processes"></a>
+
+We created lifa/run.sh to train the LIFA model on the our datasets. You can directly run this file by configuring the following parameters:
+
+| Parameters  | Description                                  | Example Values                      |
+|-------------|----------------------------------------------|-------------------------------------|
+| `dataset`      | The dataset that will be used for training | "tiki" |
+| `model_name`      | Type of LIFA model | "Moe_Gating" |
+| `pretrained_model` | The pre-trained model that will be used for training  | "bert"  |
+
+For more fine-grained parameters, please refer to the source code.
 
 ## Citation <a name="cite"></a>
 
