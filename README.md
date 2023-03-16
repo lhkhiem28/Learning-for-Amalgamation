@@ -4,17 +4,17 @@ This is the official code for the paper **[Learning for Amalgamation: A Multi-So
 Authors: Cuong V. Nguyen and Khiem H. Le and Anh M. Tran and Quang H. Pham and Binh T. Nguyen
 
 ### Contents:
-* [x] [Paper Overview](##Overview)
-* [x] [Requirement](##Requirement)
-* [x] [Datasets](##dataset)
+* [x] Paper Overview
+* [x] Requirement
+* [x] Datasets
 	* [x] AIVIVN
 	* [x] Our dataset
-* [x] [Pre-trained Models](##model)
-* [x] [Training](##processes)  
-	* [x] [Training](###training)
-	* [x] [Evaluating Dialogue States](###evaluation)
-* [x] [Citation](##cite)
-* [x] [Contact](#Contact) 
+* [x] Pre-trained Models
+* [x] Training
+	* [x] Training
+	* [x] Evaluating Dialogue States
+* [x] Citation
+* [x] Contact
 
 ## Overview  <a name="Overview"></a>
 
